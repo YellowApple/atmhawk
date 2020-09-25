@@ -66,10 +66,6 @@ class SimpleATM
   end
 
   def deposit(bills)
-    # We do it once without setting quantities first to make sure everything's
-    # valid *before* updating the contents
-    bills.map { |b| bills b['value'] }
-
     # Validate everything first
     bills.map do |b|
       value, quantity = [b['value'], b['quantity']]
