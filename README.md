@@ -67,6 +67,11 @@ withdraw a non-whole (i.e. negative or non-integer) quantity.
 In-memory, for now at least.  TODO: brush up on ActiveRecord or some other Ruby
 database wrapper.
 
+# Are there tests?
+
+Yep!  Run `bundle exec rspec` to run the suite, and have a look at
+`spec/simple_atm_spec.rb`.
+
 # Is there a license?
 
 Not this time, at least not yet.  Caveat emptor.
